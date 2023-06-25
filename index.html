@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psyche-Basecamp</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header class="container header">
+      <!-- ==== NAVBAR ==== -->
+      <nav class="nav">
+        <div class="logo">
+          <h2>Psyche-Basecamp</h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item" id="review">
+              <a href="#review-title" class="nav_menu_link">Testimonial</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">About Us</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">Our Service</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              Selamat Datang di <span>Psyche-Basecamp</span>
+              <br />
+              Support System Psikologis Kamu
+            </h1>
+            <p class="info-text">
+              Psyche-Basecamp didukung oleh tim yang berisi para ahli di bidang
+              Ilmu Psikologi, sehingga kamu dapat memercayakan dan menggunakan
+              Psyche-Basecamp sebagai rumah mental kamu yang aman.
+            </p>
+
+            <div class="btn_wrapper">
+              <button class="btn view_more_btn">
+                view all pages <i class="ri-arrow-right-line"></i>
+              </button>
+
+              <button class="btn documentation_btn">documentation</button>
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="psyche_img_wrapper">
+              <img src="./img/psyche.jpg" alt="psyche-img" height="350" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="container">
+        <!-- title -->
+        <div class="title" id="review-title">
+          <h2>Testimoni Kami</h2>
+          <div class="underline"></div>
+        </div>
+        <!-- review -->
+        <article class="review">
+          <div class="img-container">
+            <img
+              src=""
+              height="100"
+              alt=""
+              id="person-img"
+              class="img-container"
+            />
+          </div>
+          <h4 id="author"></h4>
+          <p id="job"></p>
+          <p id="info"></p>
+        </article>
+        <!-- button previous -->
+        <div class="button-container">
+          <button class="prev-btn">Prev</button>
+          <button class="next-btn">Next</button>
+        </div>
+        <!-- random button -->
+        <button class="random-btn">Random review</button>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
